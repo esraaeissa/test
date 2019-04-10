@@ -1,0 +1,82 @@
+/* Name= Esraa Eissa, Student number= 991547632.*/
+body{
+	background-image: url("../images/background.jpg");
+	 filter:Alpha(opacity=100);
+
+	 
+}
+.main{
+	display: grid; 
+	grid-template-columns: 50% 50%; 
+	grid-template-rows: 10% 60% 20% 10%; 
+	grid-template-areas: "header   header" 
+	                    " content1 content2 " 
+						"cast1     cast2" 
+						"footer     footer" ; 
+	  
+
+}
+.header{ 
+       background:  rgba(255,0,255, 0.3) ;
+	   grid-area: header ; 
+	   text-align: center; 
+
+}
+.content1{
+	grid-area: content1 ; 
+	float: left; 
+	text-align: left; 
+	
+}
+.poster1{
+	grid-area: poster1; 
+	float: right ; 
+	clear: right; 
+}
+.movie1{
+	display: flex; 
+}
+.content2{
+	grid-area: content2; 
+	float: left; 
+	text-align: left;
+}
+.poster2{
+	grid-area: poster2; 
+	float: right ; 
+	clear: right;
+}
+.movie2{
+	display: flex; 
+}
+
+.cast1{
+	grid-area: cast1; 
+	display: flex ;
+	margin: 10 px ; 
+	text-align: center ;
+	line-height: 75 px ; 
+	padding: 30 px; 
+	font-size: 20 px;		
+}
+
+.cast2{
+	grid-area: cast2; 
+	display: flex ;
+	margin: 10 px ; 
+	text-align: center ;
+	line-height: 75 px ; 
+	padding: 30 px; 
+	font-size: 20px ;	
+}
+.footer{
+	 grid-area: footer; 
+}
+
+.link2{
+	text-align: right; 
+	margin-right: 50%; 
+}
+
+
+
